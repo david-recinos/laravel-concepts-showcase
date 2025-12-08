@@ -24,8 +24,8 @@ Key methods:
 ```mermaid
 flowchart TD
     A[HTTP Request] --> B[Controller]
-    B -->|type-hints| C[FormRequest]
-    C --> D[authorize() + rules()]
-    D --> E[validated data]
+    B -->|type-hints| C[Form Request]
+    C --> D[Validation + Authorization]
+    D --> E[Validated Data]
 ```
 

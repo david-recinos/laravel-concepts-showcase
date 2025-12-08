@@ -20,8 +20,12 @@ Key methods:
 
 
 #### Diagram
+
+```mermaid
 flowchart TD
-A[HTTP Request] --> B[Controller]
-B -->|type-hints| C[FormRequest]
-C --> D[authorize() + rules()]
-D --> E[validated data]
+    A[HTTP Request] --> B[Controller]
+    B -->|type-hints| C[FormRequest]
+    C --> D[authorize() + rules()]
+    D --> E[validated data]
+```
+

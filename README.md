@@ -24,7 +24,7 @@ Provide a structured reference that demonstrates clean architecture, scalable de
 - [Repository Pattern](concepts/repository-pattern)
 - [Clean Controllers](concepts/clean-controllers)
 - Events & Listeners (coming soon)
-- Validation (coming soon)
+- [Validation via Form Requests](concepts/validation)
 - API Resources (coming soon)
 - Queue Jobs (coming soon)
 - Caching Strategies (coming soon)
